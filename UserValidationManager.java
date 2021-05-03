@@ -6,13 +6,11 @@ public class UserValidationManager implements UserValidationService {
 	public boolean CheckIfRealPerson(Gamer gamer) {
 		
 		if(gamer.getId()==1) {
-			return true;
-			//System.out.println("Kimlik doðrulama baþarýlý.");
 			
+			return true;
+	
 		}else {
 			
-		
-			//System.out.println("Kimlik doðrulama baþarýsýz!");
 			return false;
 		}
 	}
